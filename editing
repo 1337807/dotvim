@@ -1,5 +1,6 @@
 "EDITING OPTIONS
 syntax on
+set nospell
 set number      " line numbers
 set showbreak=+ " display a + at the beginning of a wrapped line
 set showmatch   " flash the matching bracket on inserting a )]} etc
