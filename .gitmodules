@@ -15,7 +15,7 @@
 	url = git://github.com/tpope/vim-commentary.git
 [submodule "bundle/command-t"]
 	path = bundle/command-t
-	url = git://git.wincent.com/command-t.git
+	url = git://github.com/wincent/Command-T.git
 [submodule "bundle/gist"]
 	path = bundle/gist
 	url = git://github.com/mattn/gist-vim.git
