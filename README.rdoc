@@ -1,4 +1,4 @@
-= Mark Turner's .vim
+= Mark Turner's .vim, robbed almost entirely by Jonan Scheffler
 
 Welcome to the magical world of my .vim. I use this setup every day and 
 finally decided to share it with the world... or at least my co-workers. 
@@ -11,7 +11,7 @@ See the Credits section below for more details.
 
 Pretty straightforward.  Clone and symlink:
 
-  $ git clone git://github.com/amerine/dotvim.git ~/.vim
+  $ git clone git://github.com/1337807/dotvim.git ~/.vim
   $ ln -s ~/.vim/vimrc ~/.vimrc
 
 Then install/update the bundles:
