@@ -11,8 +11,8 @@ See the Credits section below for more details.
 
 Pretty straightforward.  Clone and symlink:
 
-  $ git clone git://github.com/1337807/dotvim.git ~/.vim
-  $ ln -s ~/.vim/vimrc ~/.vimrc
+  git clone git://github.com/1337807/dotvim.git ~/.vim
+  ln -s ~/.vim/vimrc ~/.vimrc
 
 Then install/update the bundles:
 
