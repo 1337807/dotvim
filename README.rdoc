@@ -16,13 +16,13 @@ Pretty straightforward.  Clone and symlink:
 
 Then install/update the bundles:
 
-  $ cd ~/.vim
-  $ git submodule init
-  $ git submodule update
+  cd ~/.vim
+  git submodule init
+  git submodule update
 
 Then link the snippets:
 
-  $ cd ~/.vim/bundle/snipmate_snippets && rake install  
+  cd ~/.vim/bundle/snipmate_snippets && rake install  
 
 == Basics
 
