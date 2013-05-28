@@ -102,4 +102,4 @@
 	url = https://github.com/ap/vim-css-color.git
 [submodule "bundle/syntax_slim"]
 	path = bundle/syntax_slim
-	url = git://github.com/bbommarito/vim-slim.git
+  url = git://github.com/slim-template/vim-slim.git
