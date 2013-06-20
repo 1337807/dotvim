@@ -1,6 +1,10 @@
 "KEY BINDINGS
 let mapleader=',' " set leader to ,
 
+" Ctrl-P
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
 " format paragraphs (72 columns)
 map ^^ {!}par w72qrg<CR>
 
@@ -44,3 +48,7 @@ nmap <silent> <leader><S-t> :retab!<CR>
 
 " ,e to find files.
 nmap <leader>e :e **/
+
+" BDD
+map !s :call BDD("-l " . <C-r>=line('.')<CR>)
+map !S :call BDD("")
