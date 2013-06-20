@@ -13,9 +13,6 @@
 [submodule "bundle/commentary"]
 	path = bundle/commentary
 	url = git://github.com/tpope/vim-commentary.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = git://github.com/wincent/Command-T.git
 [submodule "bundle/gist"]
 	path = bundle/gist
 	url = git://github.com/mattn/gist-vim.git
@@ -103,3 +100,6 @@
 [submodule "bundle/syntax_slim"]
 	path = bundle/syntax_slim
   url = git://github.com/slim-template/vim-slim.git
+[submodule "ctrlp.vim"]
+	path = ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
