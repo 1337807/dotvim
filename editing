@@ -7,6 +7,13 @@ set showmatch   " flash the matching bracket on inserting a )]} etc
 
 set encoding=utf-8 nobomb
 
+" Allow typos for W, Q and X
+cnoreabbrev <expr> W ((getcmdtype() is# ':' && getcmdline() is# 'W')?('w'):('W'))
+cnoreabbrev <expr> Q ((getcmdtype() is# ':' && getcmdline() is# 'Q')?('q'):('Q'))
+cnoreabbrev <expr> X ((getcmdtype() is# ':' && getcmdline() is# 'X')?('x'):('X'))
+cnoreabbrev <expr> Qa ((getcmdtype() is# ':' && getcmdline() is# 'Qa')?('qa'):('Qa'))
+cnoreabbrev <expr> Xa ((getcmdtype() is# ':' && getcmdline() is# 'Xa')?('xa'):('Xa'))
+
 " Remember more command history
 set history=1000
 
