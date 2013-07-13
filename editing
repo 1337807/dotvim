@@ -48,7 +48,9 @@ set listchars+=precedes:«    " show a « when a line goes off the left edge of 
 set scrolloff=5                       " minimum lines to show around cursor
 set sidescrolloff=5                   " min characters to show sideways
 
-set colorcolumn=+1 " Highlight the last column
+if exists("&colorcolumn")
+  set colorcolumn=+1 " Highlight the last column
+endif
 
 set formatoptions+=n1     " help fo-table
                             " defaults: tcq
