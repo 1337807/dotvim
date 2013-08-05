@@ -48,6 +48,7 @@ nmap <silent> <leader><S-t> :retab!<CR>
 
 " ,e to find files.
 nmap <leader>e :e **/
+nmap <leader>v :vsp **/
 
 " BDD
 map !s :call BDD("-l " . <C-r>=line('.')<CR>)
