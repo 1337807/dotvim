@@ -111,7 +111,7 @@
 	url = git://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/ag"]
 	path = bundle/ag
-	url = git://github.com/vim-scripts/ag.vim.git
+	url = git://github.com/rking/ag.vim.git
 [submodule "bundle/dash"]
 	path = bundle/dash
 	url = git://github.com/rizzatti/dash.vim.git
