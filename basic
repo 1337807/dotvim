@@ -1,6 +1,7 @@
 "BASIC OPTIONS
 set nocompatible
 set wildmenu
+set shell=/bin/bash
 
 " Miscellaneous Options. Values:
 "   a: ":read" sets window filename
