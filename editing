@@ -4,6 +4,7 @@ set nospell
 set number      " line numbers
 set showbreak=+ " display a + at the beginning of a wrapped line
 set showmatch   " flash the matching bracket on inserting a )]} etc
+set pastetoggle=<F2>
 
 set encoding=utf-8 nobomb
 
