@@ -3,9 +3,10 @@
 filetype plugin indent on
 
 " ruby and yaml indentation
-autocmd FileType ruby,rdoc,cucumber,yaml,html,eruby set softtabstop=2 shiftwidth=2 tabstop=2
+autocmd FileType ruby,rdoc,cucumber,yaml,html,eruby,god set softtabstop=2 shiftwidth=2 tabstop=2
 autocmd BufNewFile,BufRead Gemfile     setfiletype ruby
 autocmd BufNewFile,BufRead config.ru   setfiletype ruby
+autocmd BufNewFile,BufRead *.god       setfiletype ruby
 autocmd BufNewFile,BufRead *_spec.rb   compiler rspec
 let ruby_space_errors = 1
 
