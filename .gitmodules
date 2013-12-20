@@ -115,3 +115,6 @@
 [submodule "bundle/rust"]
 	path = bundle/rust
 	url = git@github.com:wting/rust.vim.git
+[submodule "bundle/go"]
+	path = bundle/go
+	url = git@github.com:jnwhiteh/vim-golang.git
