@@ -3,6 +3,7 @@ set nocompatible
 set wildmenu
 set shell=/bin/bash
 set lazyredraw
+set directory=$HOME/.vim/swapfiles//
 
 " Miscellaneous Options. Values:
 "   a: ":read" sets window filename
