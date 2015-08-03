@@ -51,13 +51,13 @@
 	url = git://github.com/timcharper/textile.vim.git
 [submodule "bundle/coffeescript"]
 	path = bundle/coffeescript
-	url = https://github.com/kchmck/vim-coffee-script.git
+	url = git://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/syntax_nginx"]
 	path = bundle/syntax_nginx
-	url = https://github.com/evanmiller/nginx-vim-syntax.git
+	url = git://github.com/evanmiller/nginx-vim-syntax.git
 [submodule "bundle/syntax_handlebars"]
 	path = bundle/syntax_handlebars
-	url = https://github.com/nono/vim-handlebars.git
+	url = git://github.com/nono/vim-handlebars.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
@@ -81,22 +81,22 @@
 	url = git://github.com/nelstrom/vim-textobj-rubyblock.git
 [submodule "bundle/indent_javascript"]
 	path = bundle/indent_javascript
-	url = https://github.com/pangloss/vim-javascript.git
+	url = git://github.com/pangloss/vim-javascript.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
-	url = https://github.com/ervandew/supertab.git
+	url = git://github.com/ervandew/supertab.git
 [submodule "bundle/endwise"]
 	path = bundle/endwise
-	url = https://github.com/tpope/vim-endwise.git
+	url = git://github.com/tpope/vim-endwise.git
 [submodule "bundle/autoclose"]
 	path = bundle/autoclose
-	url = https://github.com/Townk/vim-autoclose.git
+	url = git://github.com/Townk/vim-autoclose.git
 [submodule "bundle/color_solarized"]
 	path = bundle/color_solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/css-color"]
 	path = bundle/css-color
-	url = https://github.com/ap/vim-css-color.git
+	url = git://github.com/ap/vim-css-color.git
 [submodule "bundle/syntax_slim"]
 	path = bundle/syntax_slim
   url = git://github.com/slim-template/vim-slim.git
@@ -114,10 +114,10 @@
 	url = git://github.com/rking/ag.vim.git
 [submodule "bundle/rust"]
 	path = bundle/rust
-	url = git@github.com:wting/rust.vim.git
+	url = git://github.com/wting/rust.vim.git
 [submodule "bundle/go"]
 	path = bundle/go
-	url = git@github.com:jnwhiteh/vim-golang.git
+	url = git://github.com/jnwhiteh/vim-golang.git
 [submodule "bundle/dockerfile"]
 	path = bundle/dockerfile
-	url = git@github.com:honza/dockerfile.vim.git
+	url = git://github.com/honza/dockerfile.vim.git
