@@ -16,7 +16,7 @@ set directory=$HOME/.vim/swapfiles//
 "   W: refuse to overwrite a readonly file, even with :w!
 "   Z: don't reset 'readonly' when using :w!
 set cpoptions=aABceFsWZ
-set wildignore+=*.png,*.jpg,*.gif,*.ai,*.jpeg,*.psd,*.swp,*.jar,*.zip,*.gem,.DS_Store,log/**,tmp/**,coverage/**,rdoc/**
+set wildignore+=*.png,*.jpg,*.gif,*.ai,*.jpeg,*.psd,*.swp,*.jar,*.zip,*.gem,.DS_Store,log/**,tmp/**,coverage/**,rdoc/**,node_modules/**
 set list
 
 
